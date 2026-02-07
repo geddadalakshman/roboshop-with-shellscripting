@@ -1,4 +1,5 @@
 #!/bin/bash
+code_dir=$(pwd)
 source common.sh
 
 root_user_check
@@ -37,7 +38,7 @@ unzip /tmp/frontend.zip
 status_check $?
 
 echo "Updating nginx configuration..."
-cp /config/nginx.conf /etc/nginx/roboshop.conf
+cp ${code_dir}/config/nginx.conf /etc/nginx/roboshop.conf
 status_check $?
 
 echo "Restarting nginx..."

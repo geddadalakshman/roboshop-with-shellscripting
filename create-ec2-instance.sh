@@ -1,7 +1,7 @@
 #!/bin/bash
 
 ##### Change these values ###
-ZONE_ID="Z10202231Q9C3TKFTZOQE"
+ZONE_ID="Z02913433HKW9HVIU3Z3W"
 DOMAIN="devops71.online"
 SG_NAME="allow-all"
 #############################

@@ -1,3 +1,6 @@
+LOG_FILE=/tmp/roboshop.log
+code_dir=$(pwd)
+
 root_user_check() {
     if [ $(id -u) -ne 0 ]; then
         echo "You must be a root user to run this script."
